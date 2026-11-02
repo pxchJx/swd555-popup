@@ -124,9 +124,9 @@
     '.nt h3 svg{animation:swdPulse 2.4s ease-in-out infinite}' +
     '.nt p{margin:0 0 12px;font-size:14px;line-height:1.6;color:var(--muted)}' +
     '.cp{width:100%;min-height:48px;display:flex;align-items:center;justify-content:center;gap:10px;padding:10px 14px;cursor:pointer;' +
-    'font:inherit;font-size:15px;font-weight:600;color:#131617;border:0;border-radius:var(--r);' +
-    'background:linear-gradient(93deg,var(--gold) .81%,var(--bronze) 100%);box-shadow:var(--shadow);transition:filter .2s,transform .15s}' +
-    '.cp:hover{filter:brightness(1.06)}' +
+    'font:inherit;font-size:15px;font-weight:600;color:var(--gold);border:1px solid rgba(251,230,174,.45);border-radius:var(--r);' +
+    'background:#0d1311;box-shadow:inset 0 2px 4px rgba(0,0,0,.5);transition:border-color .2s,background .2s,transform .15s}' +
+    '.cp:hover{border-color:var(--gold);background:#111a17}' +
     '.cp:active{transform:scale(.98)}' +
     '.cp span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}' +
     '.hint{margin:8px 0 0;text-align:center;font-size:12px;color:var(--muted);min-height:1.4em}' +

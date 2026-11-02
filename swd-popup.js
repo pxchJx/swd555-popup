@@ -129,7 +129,7 @@
     '.cp:hover{border-color:var(--gold);background:#111a17}' +
     '.cp:active{transform:scale(.98)}' +
     '.cp span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}' +
-    '.hint{margin:8px 0 0;text-align:center;font-size:12px;color:var(--muted);min-height:1.4em}' +
+    '.nt .hint{margin:14px 0 2px;text-align:center;font-size:12px;line-height:1.5;color:var(--muted);min-height:1.5em}' +
     '.hint.ok{color:var(--ok)}' +
     '.ft{padding:0 20px 18px;text-align:center;font-size:12px;color:var(--muted)}' +
     ':focus-visible{outline:2px solid var(--gold);outline-offset:3px}' +

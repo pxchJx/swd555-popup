@@ -17,8 +17,8 @@
     logoAlt: 'SWD555',
     bannerUrl: 'swd555-banner.webp', // '' = visible placeholder box
     bannerAlt: 'SWD555',
-    officialUrl: 'https://swd555pg.net',
-    lineUrl: 'https://lin.ee/RqEs3Ah', // '' hides the LINE row
+    officialUrl: 'https://swd555.link/swd555new',
+    lineUrl: 'https://swd555.link/line-swd555', // '' hides the LINE row
     text: {
       title: 'SWD555 ทางเข้าเว็บไซต์',
       lineTitle: 'LINE',

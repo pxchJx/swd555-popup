@@ -242,7 +242,8 @@
           line +
           '<div class="nt"><h3>' + ICON_SHIELD + esc(T.noticeTitle) + '</h3>' +
             '<p>' + esc(T.noticeBody) + '</p>' +
-            '<button type="button" class="cp"><span>' + esc(CONFIG.officialUrl) + '</span>' + ICON_COPY + '</button>' +
+            '<button type="button" class="cp" aria-label="' + esc(T.copyHint + ' ' + CONFIG.officialUrl) + '"><span>' +
+              esc(CONFIG.officialUrl.replace(/^https?:\/\//, '')) + '</span>' + ICON_COPY + '</button>' +
             '<p class="hint" aria-live="polite">' + esc(T.copyHint) + '</p></div>' +
         '</div>' +
         '<div class="ft">' + esc(T.footer) + '</div>' +
